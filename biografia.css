@@ -1,0 +1,200 @@
+
+body{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fcf3f3;
+    padding: 0;
+    margin: 0;
+}
+
+.board{
+    position: absolute;
+    background-color:#b3aaaa ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    border-top: none;
+    border-bottom: 3.5px solid goldenrod;
+}
+
+.links1{
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+
+.link1-1{
+    background-color: rgb(69, 102, 21);
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #066E6D;
+    display: inline-block; /* Para permitir definir o tamanho da borda */
+    position: relative; /* Permite posicionar o pseudo-elemento */
+    padding: 7px; /* Adiciona um espaçamento interno de 10 pixels ao redor do link */
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.link1-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px black;
+}
+
+.img1{
+    width: 305px;
+    height: 160px;
+    position: absolute;
+    top: -50%;
+    left:10%;
+}
+
+.img2{
+   
+    width: 200px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 395px;
+}
+
+.resumo{
+    position: absolute;
+    top: 486px;
+    left: 26.4%;
+}
+
+.resumo1{
+    background-color: rgb(58, 50, 50);
+    padding: 12px;
+    width: 174px;
+    text-align: center;
+    border: goldenrod 3px solid;
+    color: white;
+}
+
+.strong{
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resumo2{
+    background-color: rgb(58, 50, 50);
+    padding: 7px;
+    width: 185px;
+    text-align: center;
+    font-size: 17px;
+    border: goldenrod 3px solid;
+    color: white;
+    margin-top: -12px;
+    font-style: italic;
+}
+
+.textoprincipal{
+    text-align: center;
+    margin-top: -420px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pgmd{
+    font-size: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -30px;
+}
+
+.email{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: -32px;
+    margin-left: -170px;
+}
+
+.whats{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    margin-top: -32px;
+    margin-left: -110px;
+}
+
+.git{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    margin-top: -32px;
+    margin-left: -60px;
+}
+
+.face{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    margin-top: -32px;
+    margin-left: -10px;
+}
+
+.insta{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: -32px;
+    margin-left: 39px;
+}
+
+.apresentacaoOFC{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 42%;
+    letter-spacing: 1px;
+}
+
+.trabalhosRealizados{
+    width: 400px;
+    height: 600px;
+    margin-left: 70%;
+}
+
+.calculadora{
+    width: 300px;
+    height: 300px;
+    margin-top: -70px;
+    border:2px solid goldenrod;
+}
+
+
+.tarefas{
+    width: 430px;
+    height: 200px;
+    border:2px solid goldenrod;
+}
+
+.final{
+    height: 150px;
+    background-color: rgb(133, 131, 131);
+    border: 5px solid goldenrod;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.search-button {
+    padding: 8px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
